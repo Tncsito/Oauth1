@@ -1,5 +1,3 @@
-Descripción:
-
 Este proyecto es una aplicación en Node.js que permite a los usuarios autenticarse con Google mediante OAuth2 y obtener una lista de sus archivos almacenados en Google Drive. Utiliza Express para manejar las rutas y JSON Web Tokens (JWT) para asegurar el acceso a ciertas funciones.
 
 Características:
