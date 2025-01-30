@@ -78,7 +78,7 @@ function verificarToken(req, res, next) {
     });
 }
 app.get('/list-files', verificarToken, async (req, res) => {
-    // Esta ruta ahora solo puede ser accedida si se proporciona un JWT válido
+    // Esta ruta ahora solo puede ser accedida si se proporciona un JWT válido 
     try {
         const drive = google.drive({ version: 'v3', auth: oauth2Client });
 
